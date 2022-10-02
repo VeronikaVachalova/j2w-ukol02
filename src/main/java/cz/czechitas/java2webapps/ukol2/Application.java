@@ -1,7 +1,7 @@
 package cz.czechitas.java2webapps.ukol2;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 
 /**
  * Hlavní třída, která spouští celou aplikaci pomocí Spring Boot.
@@ -9,8 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class Application {
 
-	public static void main(String... args) {
+public static void main(String... args) {
 		SpringApplication.run(Application.class, args);
 	}
+
+
 
 }
