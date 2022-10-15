@@ -13,11 +13,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 50vh;
     color: white;
     background-color: black;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: center;
 }
 
 blockquote {

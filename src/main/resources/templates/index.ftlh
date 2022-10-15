@@ -1,4 +1,4 @@
-
+[#ftl]
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -9,20 +9,10 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
 </head>
-
 <body>
-<div>
-<h1>${citat}</h1>
-<div>
 
-<img class="fotka" src="/images/Obrazek-${obrazek}.jpg" />
-</div>
-
-<div>Ukaz fotku: <span>${obrazek}</span></div>
-</div>
-
-<blockquote><h1>${citat}</h1></blockquote>
-
+<body style="background-image: url(https://source.unsplash.com/${obrazek}/4000x2000);">
+<blockquote>${citat}</blockquote>
 
 </body>
 </html>

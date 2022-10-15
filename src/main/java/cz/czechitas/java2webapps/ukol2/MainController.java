@@ -20,11 +20,23 @@ List<String> seznamCitaci = List.of(
    "In order to write about life first you must live it. Ernest Hemingway",
    "Life is like riding a bicycle. To keep your balance, you must keep moving. Albert Einstein");
 
-   int vyberObrazek = random.nextInt(10) + 1;
-   int vyberCitat = random.nextInt(seznamCitaci.size());
-   ModelAndView modelAndView = new ModelAndView("index");
-   modelAndView.addObject("obrazek", vyberObrazek);
-   modelAndView.addObject("citat", seznamCitaci.get(vyberCitat));
-   return modelAndView;
-    }
-            }
+List<String> seznamObrazku = List.of(
+    "bj-un6ni8ys",
+    "YXVW6v0Udi0",
+    "T7akogA-uew",
+    "jvhMDjoR4L0",
+    "WSt5SfRMqZg",
+    "7tM8y1SNg0E",
+    "KyUtRKiiuvQ",
+    "rADMQ-bT-d0",
+    "6UlhJUUBNo8",
+   "dDtOLVtlKLI");
+
+    int vyberObrazek = random.nextInt(seznamObrazku.size());
+    int vyberCitat = random.nextInt(seznamCitaci.size());
+    ModelAndView modelAndView = new ModelAndView("index");
+    modelAndView.addObject("obrazek", seznamObrazku.get(vyberObrazek));
+    modelAndView.addObject("citat", seznamCitaci.get(vyberCitat));
+    return modelAndView;
+}
+}
