@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<body style="background-image: url(https://source.unsplash.com/${obrazek}/4000x2000);">
+<body style="background-image: url(https://source.unsplash.com/${obrazek}/3000x1500);">
 <blockquote>${citat}</blockquote>
 
 </body>
